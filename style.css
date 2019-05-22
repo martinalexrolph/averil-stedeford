@@ -1,0 +1,31 @@
+body {
+    width: 90%;
+    max-width: 650px;
+    margin: 3rem auto;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
+}
+
+h1, h2, h3, h4 {
+    margin: 1rem 0;
+}
+
+hr {
+    margin: 1rem 0;
+    color: #ccc;
+}
+
+.right {
+    text-align: right;
+}
+
+.image-right {
+    float: right;
+    margin: 0 0px 10px 10px;
+}
+
+.image-left {
+    float: left;
+    margin: 0 10px 10px 0px;
+}
