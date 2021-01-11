@@ -1,23 +1,46 @@
+html {
+    background: #ecf1ec;
+}
+
 body {
     width: 90%;
     max-width: 650px;
     margin: 3rem auto;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.6;
     font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
+    background: #fbfbfb;
+    padding: 15px 30px;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.1);
 }
 
 h1, h2, h3, h4 {
     margin: 1rem 0;
+    text-align: center;
+}
+
+p {
+    text-indent: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 hr {
-    margin: 1rem 0;
+    margin: 2rem 40px;
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+    border-color: #ccc;
     color: #ccc;
 }
 
 .right {
     text-align: right;
+}
+
+.centred {
+    text-align: center;
+    text-indent: 0;
 }
 
 .image-right {
@@ -28,4 +51,12 @@ hr {
 .image-left {
     float: left;
     margin: 0 10px 10px 0px;
+}
+
+a {
+    color: #688079;
+}
+
+a:hover {
+    color: #9bb1aa;
 }
