@@ -1,11 +1,11 @@
 html {
     background: #ecf1ec;
+    padding: 10px;
 }
 
 body {
-    width: 90%;
     max-width: 650px;
-    margin: 3rem auto;
+    margin: 1rem auto;
     font-size: 20px;
     line-height: 1.6;
     font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
@@ -59,4 +59,11 @@ a {
 
 a:hover {
     color: #9bb1aa;
+}
+
+pre {
+    margin-right: -30px;
+    padding-right: 30px;
+    overflow-x: auto;
+    font-size: 20px;
 }
