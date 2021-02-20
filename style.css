@@ -99,6 +99,11 @@ pre {
     margin-top: 0;
 }
 
+.header-links a {
+    margin-right: 10px;
+    display: inline-block;
+}
+
 .left-column {
     width: 47%;
     float: left;
