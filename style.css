@@ -10,28 +10,44 @@ body {
     line-height: 1.6;
     font-family: "Palatino Linotype", Palatino, "Book Antiqua", serif;
     background: #fbfbfb;
-    padding: 15px 30px;
+    padding: 25px 30px 15px;
     box-shadow: 3px 3px 6px rgba(0,0,0,0.1);
+    border: 1px solid #ccc;
+}
+
+body *:first-child {
+    margin-top: 0;
 }
 
 h1, h2, h3, h4 {
-    margin: 1rem 0;
-    text-align: center;
+    margin: 0.8em 0 0.5em;
+}
+
+h2 {
+    border-bottom: 1px solid #ccc;
+}
+
+h3 {
+    font-style: italic;
 }
 
 p {
-    text-indent: 2rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 0.3em;
+    margin-bottom: 0.8em;
 }
 
 hr {
-    margin: 2rem 40px;
+    margin: 2rem 0;
     height: 1px;
     background-color: #ccc;
     border: none;
     border-color: #ccc;
     color: #ccc;
+}
+
+.center {
+    text-align: center;
+    text-indent: 0;
 }
 
 .right {
@@ -70,4 +86,45 @@ pre {
 
 .no-indent {
     text-indent: 0;
+}
+
+.header-name {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.header-links {
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.left-column {
+    width: 47%;
+    float: left;
+}
+
+.right-column {
+    width: 47%;
+    float: right;
+}
+
+.introduction {
+    font-size: 24px;
+    text-indent: 0;
+    font-style: italic;
+}
+
+.homepage-links {
+    text-align: center;
+    padding: 10px;
+    background: #ffffff;
+    font-size: 24px;
+    box-shadow: 3px 3px 6px rgb(0 0 0 / 10%);
+    border: 1px solid #ccc;
+}
+
+.homepage-links a {
+    display: block;
+    margin: 10px;
 }
