@@ -87,11 +87,13 @@ a:hover {
     color: #9bb1aa;
 }
 
-pre {
+.preserve-whitespace {
     margin-right: -30px;
     padding-right: 20px;
     overflow-x: auto;
     font-size: 20px;
+    white-space: pre;
+    font-family: monospace;
 }
 
 .no-indent {
