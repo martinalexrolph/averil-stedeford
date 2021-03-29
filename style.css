@@ -1,10 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     background: #ecf1ec;
     padding: 10px;
 }
 
 body {
-    max-width: 650px;
+    max-width: 720px;
     margin: 1rem auto;
     font-size: 20px;
     line-height: 1.6;
