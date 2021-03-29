@@ -37,7 +37,7 @@ p {
 }
 
 hr {
-    margin: 2rem -30px;
+    margin: 30px -30px;
     height: 1px;
     background-color: #ccc;
     border: none;
@@ -61,12 +61,18 @@ hr {
 
 .image-right {
     float: right;
-    margin: 0 0px 10px 10px;
+    margin: 0 0px 10px 15px;
 }
 
 .image-left {
     float: left;
-    margin: 0 10px 10px 0px;
+    margin: 0 15px 10px 0px;
+}
+
+.image-middle {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 a {
@@ -132,4 +138,12 @@ pre {
 .homepage-links a {
     display: block;
     margin: 10px;
+}
+
+.card {
+    padding: 20px 30px;
+    background: #ffffff;
+    box-shadow: 3px 3px 6px rgb(0 0 0 / 10%);
+    border: 1px solid #ccc;
+    clear: both;
 }
