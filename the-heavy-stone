@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Averil Stedeford, poet and author</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <h1 class="header-name">Averil Stedeford</h1>
+
+        <h4 class="header-links">
+            <a href="/index.html">Home</a>
+            <a href="/poetry.html">Poetry</a>
+            <a href="/eco-renovation.html">Eco-renovation</a>
+            <a href="/sobell-house.html">Working with the dying</a>
+            <a href="/publications.html">Publications</a>
+        </h4>
+
+        <hr>
+
+        <h1>The Heavy Stone</h1>
+
+        <div class="preserve-whitespace">My grief was a heavy stone, rough and sharp.
+Grasping to pick it up my hands were cut.
+Afraid to let it go I carried it.
+While I had my grief you were not lost.
+
+The rain of my tears smoothed it.
+The wind of my rage weathered it,
+making it round and small.
+
+The cuts in my hands have healed.
+Now in my palm it rests,
+sometimes almost beautiful,
+sometimes almost you.</div>
+
+        <p class="right"><i>Averil Stedeford</i></p>
+
+    </body>
+</html>
